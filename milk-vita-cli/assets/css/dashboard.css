@@ -1,0 +1,95 @@
+.dashboard-title {
+    background: #fbfbfb;
+    padding: 0px 8px;
+    box-shadow: 2px 2px 5px #ddd;
+    margin-bottom: 14px;
+    border-left: 10px solid #45b1ff!important
+}
+.dashboard-title h2 {
+    font-size: 21px;
+    padding: 11px 5px;
+    color: #6e6e6e;
+}
+.info-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 1px 1px 4px #ddd;
+    color: #000;
+    transition: all .3s linear;
+    padding: 10px;
+    border-radius: 4px;
+}
+.info-box:hover {
+    text-decoration: none;
+    box-shadow: 5px 5px 4px #ddd;
+}
+.info-box .icon {
+    background: #0C0280;
+    border-radius: 2px;
+    padding: 12px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+}
+.info-box .info {
+    display: grid;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.info-box .info strong {
+    display: block;
+    background: #e7e7e7;
+    padding: 2px 12px;
+    border-radius: 35px;
+    text-align: center;
+    font-size: 11px;
+    width: fit-content;
+    min-width: 73px;
+}
+.info-box .info span {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.info-box .icon img {
+    object-fit: cover;
+    height: 28px!important;
+}
+
+
+
+/* // */
+.profile-card {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.profile-card .profile-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin-right: 12px;
+    background-color: #fff;
+}
+.profile-card .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-card .profile-info {
+    line-height: 2px;
+    font-size: 14px;
+}
+.profile-card .profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.card-body-profile {
+    position: initial;
+    padding-top: 80px;
+    background-image: linear-gradient(to bottom, hsl(197deg 53% 93%), rgba(230, 237, 217, 0.569));
+}

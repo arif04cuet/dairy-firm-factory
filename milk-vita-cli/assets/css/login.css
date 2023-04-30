@@ -1,0 +1,45 @@
+.login-form {
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+}
+
+.login-form .card-header {
+  background: #fff;
+  padding: 0;
+  border: none;
+}
+.login-form .card-header .c-name {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.login-wrapper {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.password-field {
+  position: relative;
+  display: block;
+}
+.password-field i {
+  position: absolute;
+  top:50%;
+  right: 6px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.password-field i:hover {
+  border: 1px solid #dddddd40;
+  background: #dddddd40;
+}

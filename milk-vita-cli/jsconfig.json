@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    },
+    "types": [
+      "@nuxtjs/auth-next",
+      "@nuxt/types",
+      "@nuxtjs/axios",
+      "vue-sweetalert2",
+    ]
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
