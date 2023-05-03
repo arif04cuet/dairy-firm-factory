@@ -1,4 +1,4 @@
-# Dairy firm and factory management
+# Dairy firm, factory and distribution managment
 
 ### Milk collection
 A company have many associations all over the country and each association have many beneficiaries who are actually farmer and have cows to produce milk. all beneficiaries provide milk to their association and each association send acumulated milk to the company.
@@ -26,3 +26,12 @@ Dairy products demand are collected from shop via distributors and delivery to t
 - distributors management
 - order receives from distributors
 - order delivery to distributors from factory
+
+
+# Technology used
+
+- Laravel
+- VueJs
+- Bootstrap
+- Realtime notifications
+- Payment
