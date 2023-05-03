@@ -1,4 +1,4 @@
-name: Deploy Milkvita to RDCD VM
+name: Deploy App to VM
 
 # Trigger the workflow on push and 
 # pull request events on the production branch
